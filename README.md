@@ -1,9 +1,18 @@
-This is a for a program using Tkinter for UI that converts a string of text to morse code.
+# Text to Morse Code (Tkinter)
 
-The code itself is quite simple as it splits the sting into individual characters and then finds 
-the position of that character in the alphabet list and then the morse code at the corresponding position 
-in the morse_code list.
+A simple desktop GUI app built with Python + Tkinter that converts plain text into Morse code.
 
-In the future I would like to alter it so that it actually beeps the morse code at you when you convert it.
-I would also like a button where you could practice morse code and have it come up as text on the screen (Maybe in the
-future).
+## Features
+- Converts A–Z input into Morse code
+- Case-insensitive input
+- Clean GUI output (space-separated Morse symbols)
+
+## How it works
+The app maps each supported character to its Morse representation and builds an output string from the input.
+
+## Requirements
+- Python 3.10+ (3.8+ should work)
+
+## Run locally
+```bash
+python main.py
